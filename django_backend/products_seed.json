@@ -1,0 +1,287 @@
+[
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "name": "Mwea Pishori White Rice 5kg",
+        "slug": "mwea-pishori-white-rice-5kg",
+        "category": 1,
+        "price": "1250.00",
+        "description": "Premium quality aromatic rice harvested straight from the Kirinyaga plains.",
+        "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=400",
+        "stock": 50,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "name": "Basmati Rice 2kg",
+        "slug": "basmati-rice-2kg",
+        "category": 1,
+        "price": "600.00",
+        "description": "Long grain, fluffy basmati rice ideal for pilau.",
+        "image_url": "https://images.unsplash.com/photo-1594315590298-328faffa61f5?auto=format&fit=crop&q=80&w=400",
+        "stock": 40,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "name": "Jogoo Maize Meal 2kg",
+        "slug": "jogoo-maize-meal-2kg",
+        "category": 1,
+        "price": "195.00",
+        "description": "Premium sifted maize meal, perfect for Ugali.",
+        "image_url": "https://images.unsplash.com/photo-1506458961255-571f40df5aad?auto=format&fit=crop&q=80&w=400",
+        "stock": 100,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "name": "Hostess Maize Flour 2kg",
+        "slug": "hostess-maize-flour-2kg",
+        "category": 1,
+        "price": "210.00",
+        "description": "Extra fine premium grade maize flour.",
+        "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&q=80&w=400",
+        "stock": 65,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "name": "Mumias Sugar 1kg",
+        "slug": "mumias-sugar-1kg",
+        "category": 1,
+        "price": "160.00",
+        "description": "Pure white cane sugar.",
+        "image_url": "https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&q=80&w=400",
+        "stock": 120,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "name": "Kabras Sugar 2kg",
+        "slug": "kabras-sugar-2kg",
+        "category": 1,
+        "price": "310.00",
+        "description": "Brown sugar produced locally.",
+        "image_url": "https://images.unsplash.com/photo-1622484666578-83187c3905e3?auto=format&fit=crop&q=80&w=400",
+        "stock": 90,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "name": "Fresh Sukuma Wiki (Bunch)",
+        "slug": "fresh-sukuma-wiki-bunch",
+        "category": 2,
+        "price": "40.00",
+        "description": "Fresh, organic collard greens picked daily.",
+        "image_url": "https://images.unsplash.com/photo-1528640936814-4460bc015285?auto=format&fit=crop&q=80&w=400",
+        "stock": 40,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "name": "Fresh Spinach (Bunch)",
+        "slug": "fresh-spinach-bunch",
+        "category": 2,
+        "price": "50.00",
+        "description": "Nutritious green spinach from local farms.",
+        "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80&w=400",
+        "stock": 35,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "name": "Red Onions 1kg",
+        "slug": "red-onions-1kg",
+        "category": 2,
+        "price": "120.00",
+        "description": "Fresh red onions with a strong flavor.",
+        "image_url": "https://images.unsplash.com/photo-1618512496248-a07ce83aa8cb?auto=format&fit=crop&q=80&w=400",
+        "stock": 60,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "name": "Fresh Tomatoes 1kg",
+        "slug": "fresh-tomatoes-1kg",
+        "category": 2,
+        "price": "100.00",
+        "description": "Farm fresh red tomatoes.",
+        "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&q=80&w=400",
+        "stock": 45,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 11,
+      "fields": {
+        "name": "Ripe Mangoes (3 Pcs)",
+        "slug": "ripe-mangoes-3-pcs",
+        "category": 3,
+        "price": "120.00",
+        "description": "Sweet and juicy apple mangoes.",
+        "image_url": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&q=80&w=400",
+        "stock": 80,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "name": "Sweet Bananas (Bunch)",
+        "slug": "sweet-bananas-bunch",
+        "category": 3,
+        "price": "80.00",
+        "description": "Locally grown yellow bananas.",
+        "image_url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=400",
+        "stock": 100,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 13,
+      "fields": {
+        "name": "Brookside Fresh Milk 500ml",
+        "slug": "brookside-fresh-milk-500ml",
+        "category": 4,
+        "price": "65.00",
+        "description": "Pasteurized fresh cow milk.",
+        "image_url": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=400",
+        "stock": 60,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 14,
+      "fields": {
+        "name": "Tuzo Milk 500ml",
+        "slug": "tuzo-milk-500ml",
+        "category": 4,
+        "price": "60.00",
+        "description": "Long life UHT homogenised milk.",
+        "image_url": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=400",
+        "stock": 75,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 15,
+      "fields": {
+        "name": "Kapa Cooking Oil 1L",
+        "slug": "kapa-cooking-oil-1l",
+        "category": 1,
+        "price": "320.00",
+        "description": "Pure vegetable cooking oil, cholesterol free.",
+        "image_url": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+        "stock": 35,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 16,
+      "fields": {
+        "name": "Elianto Corn Oil 1L",
+        "slug": "elianto-corn-oil-1l",
+        "category": 1,
+        "price": "400.00",
+        "description": "100% pure corn oil.",
+        "image_url": "https://images.unsplash.com/photo-1595981267035-7b04d9c79e60?auto=format&fit=crop&q=80&w=400",
+        "stock": 25,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 17,
+      "fields": {
+        "name": "Kienyeji Chicken (Whole)",
+        "slug": "kienyeji-chicken-whole",
+        "category": 5,
+        "price": "800.00",
+        "description": "Free range local chicken, cleaned and ready to cook.",
+        "image_url": "https://images.unsplash.com/photo-1588147672235-cb2cc1214041?auto=format&fit=crop&q=80&w=400",
+        "stock": 15,
+        "vendor": 2,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 18,
+      "fields": {
+        "name": "Tilapia Fish (Whole)",
+        "slug": "tilapia-fish-whole",
+        "category": 5,
+        "price": "450.00",
+        "description": "Fresh tilapia from Lake Victoria.",
+        "image_url": "https://images.unsplash.com/photo-1511247072522-83b544b6c3eb?auto=format&fit=crop&q=80&w=400",
+        "stock": 20,
+        "vendor": 1,
+        "is_active": true
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 19,
+      "fields": {
+        "name": "Beef Cut (1kg)",
+        "slug": "beef-cut-1kg",
+        "category": 5,
+        "price": "650.00",
+        "description": "Freshly butchered tender beef chunks.",
+        "image_url": "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&q=80&w=400",
+        "stock": 30,
+        "vendor": 2,
+        "is_active": true
+      }
+    }
+  ]

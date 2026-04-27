@@ -1,0 +1,1482 @@
+export const initialProducts = [
+  {
+    "id": "p100",
+    "name": "Fresh White Cabbage",
+    "category": "Vegetables",
+    "price": 88,
+    "description": "Freshly sourced farm-quality Fresh White Cabbage. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1530836369250-bc42426bf764?auto=format&fit=crop&q=80&w=400",
+    "stock": 45,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p101",
+    "name": "Fresh Button Mushrooms",
+    "category": "Vegetables",
+    "price": 399,
+    "description": "Freshly sourced farm-quality Fresh Button Mushrooms. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c675e9?auto=format&fit=crop&q=80&w=400",
+    "stock": 85,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p102",
+    "name": "Fresh Butternut",
+    "category": "Snacks",
+    "price": 115,
+    "description": "Premium quality Fresh Butternut. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 36,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p103",
+    "name": "Fresh Red Onions",
+    "category": "Vegetables",
+    "price": 130,
+    "description": "Freshly sourced farm-quality Fresh Red Onions. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1515024164103-95856b3eec68?auto=format&fit=crop&q=80&w=400",
+    "stock": 80,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p104",
+    "name": "Healthy Breakfast Pack",
+    "category": "Breakfast",
+    "price": 496,
+    "description": "Premium quality Healthy Breakfast Pack. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 56,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p105",
+    "name": "Fresh Spinach",
+    "category": "Vegetables",
+    "price": 79,
+    "description": "Freshly sourced farm-quality Fresh Spinach. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 70,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p106",
+    "name": "Courgette",
+    "category": "Vegetables",
+    "price": 149,
+    "description": "Freshly sourced farm-quality Courgette. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 73,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p107",
+    "name": "Fresh Terere",
+    "category": "Vegetables",
+    "price": 104,
+    "description": "Freshly sourced farm-quality Fresh Terere. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 71,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p108",
+    "name": "Alika Potatoes",
+    "category": "Vegetables",
+    "price": 149,
+    "description": "Freshly sourced farm-quality Alika Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 51,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p109",
+    "name": "Fresh White Sweet Potatoes",
+    "category": "Vegetables",
+    "price": 141,
+    "description": "Freshly sourced farm-quality Fresh White Sweet Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 57,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p110",
+    "name": "Fresh Cassava",
+    "category": "Vegetables",
+    "price": 124,
+    "description": "Freshly sourced farm-quality Fresh Cassava. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 77,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p111",
+    "name": "Carrots",
+    "category": "Vegetables",
+    "price": 120,
+    "description": "Freshly sourced farm-quality Carrots. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1598170845058-28564e528b80?auto=format&fit=crop&q=80&w=400",
+    "stock": 67,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p112",
+    "name": "Fresh White Onions",
+    "category": "Vegetables",
+    "price": 136,
+    "description": "Freshly sourced farm-quality Fresh White Onions. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1515024164103-95856b3eec68?auto=format&fit=crop&q=80&w=400",
+    "stock": 27,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p113",
+    "name": "Fresh Baby Carrots",
+    "category": "Vegetables",
+    "price": 126,
+    "description": "Freshly sourced farm-quality Fresh Baby Carrots. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1598170845058-28564e528b80?auto=format&fit=crop&q=80&w=400",
+    "stock": 39,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p114",
+    "name": "Fresh Hard Lettuce",
+    "category": "Vegetables",
+    "price": 102,
+    "description": "Freshly sourced farm-quality Fresh Hard Lettuce. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 20,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p115",
+    "name": "Fresh French Beans",
+    "category": "Grains",
+    "price": 108,
+    "description": "Premium quality Fresh French Beans. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 25,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p116",
+    "name": "Savoy Cabbage",
+    "category": "Vegetables",
+    "price": 115,
+    "description": "Freshly sourced farm-quality Savoy Cabbage. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1530836369250-bc42426bf764?auto=format&fit=crop&q=80&w=400",
+    "stock": 29,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p117",
+    "name": "Fresh Eggplant",
+    "category": "Vegetables",
+    "price": 144,
+    "description": "Freshly sourced farm-quality Fresh Eggplant. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 29,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p118",
+    "name": "Soft Maize",
+    "category": "Grains",
+    "price": 114,
+    "description": "Premium quality Soft Maize. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 43,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p119",
+    "name": "Fresh Managu",
+    "category": "Vegetables",
+    "price": 141,
+    "description": "Freshly sourced farm-quality Fresh Managu. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 42,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p120",
+    "name": "Fresh Dhania",
+    "category": "Vegetables",
+    "price": 121,
+    "description": "Freshly sourced farm-quality Fresh Dhania. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 94,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p121",
+    "name": "Coco Yam",
+    "category": "Vegetables",
+    "price": 121,
+    "description": "Freshly sourced farm-quality Coco Yam. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 67,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p122",
+    "name": "Fresh Soft Lettuce",
+    "category": "Vegetables",
+    "price": 125,
+    "description": "Freshly sourced farm-quality Fresh Soft Lettuce. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 63,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p123",
+    "name": "Fresh Kunde",
+    "category": "Vegetables",
+    "price": 120,
+    "description": "Freshly sourced farm-quality Fresh Kunde. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 20,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p124",
+    "name": "Fresh White Potatoes",
+    "category": "Vegetables",
+    "price": 103,
+    "description": "Freshly sourced farm-quality Fresh White Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 37,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p125",
+    "name": "Shelled Minji 500g",
+    "category": "Grains",
+    "price": 116,
+    "description": "Premium quality Shelled Minji 500g. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 77,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p126",
+    "name": "Fresh Red Sweet Potatoes",
+    "category": "Vegetables",
+    "price": 143,
+    "description": "Freshly sourced farm-quality Fresh Red Sweet Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 53,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p127",
+    "name": "Soft Beans",
+    "category": "Grains",
+    "price": 143,
+    "description": "Premium quality Soft Beans. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 47,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p128",
+    "name": "Mbaazi",
+    "category": "Grains",
+    "price": 113,
+    "description": "Premium quality Mbaazi. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 96,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p129",
+    "name": "Fresh Beetroots",
+    "category": "Vegetables",
+    "price": 137,
+    "description": "Freshly sourced farm-quality Fresh Beetroots. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 20,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p130",
+    "name": "Fresh Pumpkin",
+    "category": "Vegetables",
+    "price": 124,
+    "description": "Freshly sourced farm-quality Fresh Pumpkin. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 79,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p131",
+    "name": "Karera",
+    "category": "Vegetables",
+    "price": 141,
+    "description": "Freshly sourced farm-quality Karera. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 81,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p132",
+    "name": "Dry Beans",
+    "category": "Grains",
+    "price": 200,
+    "description": "Premium quality Dry Beans. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 67,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p133",
+    "name": "English Cucumber",
+    "category": "Vegetables",
+    "price": 125,
+    "description": "Freshly sourced farm-quality English Cucumber. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 65,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p134",
+    "name": "Sukuma Wiki",
+    "category": "Vegetables",
+    "price": 88,
+    "description": "Freshly sourced farm-quality Sukuma Wiki. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 83,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p135",
+    "name": "Fresh Bean Sprout",
+    "category": "Vegetables",
+    "price": 132,
+    "description": "Freshly sourced farm-quality Fresh Bean Sprout. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 84,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p136",
+    "name": "Fresh Romaine 5pcs",
+    "category": "Vegetables",
+    "price": 145,
+    "description": "Freshly sourced farm-quality Fresh Romaine 5pcs. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 55,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p137",
+    "name": "Fresh Matoke",
+    "category": "Fruits",
+    "price": 117,
+    "description": "Freshly sourced farm-quality Fresh Matoke. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1528825871115-3580a53856b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 59,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p138",
+    "name": "Fresh Arrow Roots",
+    "category": "Vegetables",
+    "price": 100,
+    "description": "Freshly sourced farm-quality Fresh Arrow Roots. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 49,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p139",
+    "name": "Fresh Baby Potatoes",
+    "category": "Vegetables",
+    "price": 116,
+    "description": "Freshly sourced farm-quality Fresh Baby Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 22,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p140",
+    "name": "Fresh Cauliflower",
+    "category": "Vegetables",
+    "price": 100,
+    "description": "Freshly sourced farm-quality Fresh Cauliflower. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 99,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p141",
+    "name": "Mrenda",
+    "category": "Vegetables",
+    "price": 149,
+    "description": "Freshly sourced farm-quality Mrenda. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 80,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p142",
+    "name": "Fresh Kanzira",
+    "category": "Vegetables",
+    "price": 103,
+    "description": "Freshly sourced farm-quality Fresh Kanzira. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 49,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p143",
+    "name": "Flat Italian Parsley",
+    "category": "Vegetables",
+    "price": 109,
+    "description": "Freshly sourced farm-quality Flat Italian Parsley. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 96,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p144",
+    "name": "Fresh Oyster Mushrooms",
+    "category": "Vegetables",
+    "price": 353,
+    "description": "Freshly sourced farm-quality Fresh Oyster Mushrooms. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c675e9?auto=format&fit=crop&q=80&w=400",
+    "stock": 62,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p145",
+    "name": "Fresh Red Banana",
+    "category": "Fruits",
+    "price": 145,
+    "description": "Freshly sourced farm-quality Fresh Red Banana. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1528825871115-3580a53856b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 73,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p146",
+    "name": "Fresh Red Tomatoes",
+    "category": "Vegetables",
+    "price": 142,
+    "description": "Freshly sourced farm-quality Fresh Red Tomatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1592924357228-91a547b99c72?auto=format&fit=crop&q=80&w=400",
+    "stock": 44,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p147",
+    "name": "Fresh Plantain",
+    "category": "Fruits",
+    "price": 140,
+    "description": "Freshly sourced farm-quality Fresh Plantain. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1528825871115-3580a53856b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 24,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p148",
+    "name": "Fresh Kahurura",
+    "category": "Vegetables",
+    "price": 127,
+    "description": "Freshly sourced farm-quality Fresh Kahurura. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 71,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p149",
+    "name": "Fresh Cherry Tomatoes",
+    "category": "Vegetables",
+    "price": 135,
+    "description": "Freshly sourced farm-quality Fresh Cherry Tomatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1592924357228-91a547b99c72?auto=format&fit=crop&q=80&w=400",
+    "stock": 72,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p150",
+    "name": "Fresh Leeks",
+    "category": "Vegetables",
+    "price": 149,
+    "description": "Freshly sourced farm-quality Fresh Leeks. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 39,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p151",
+    "name": "Fresh Broccoli",
+    "category": "Vegetables",
+    "price": 141,
+    "description": "Freshly sourced farm-quality Fresh Broccoli. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 76,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p152",
+    "name": "Fresh Spring Onions",
+    "category": "Vegetables",
+    "price": 103,
+    "description": "Freshly sourced farm-quality Fresh Spring Onions. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1515024164103-95856b3eec68?auto=format&fit=crop&q=80&w=400",
+    "stock": 63,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p153",
+    "name": "Fresh Tarragon",
+    "category": "Vegetables",
+    "price": 147,
+    "description": "Freshly sourced farm-quality Fresh Tarragon. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 22,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p154",
+    "name": "Fresh Yellow Pepper",
+    "category": "Vegetables",
+    "price": 103,
+    "description": "Freshly sourced farm-quality Fresh Yellow Pepper. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 37,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p155",
+    "name": "Fresh Green Pepper",
+    "category": "Vegetables",
+    "price": 121,
+    "description": "Freshly sourced farm-quality Fresh Green Pepper. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 81,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p156",
+    "name": "Fresh Baby Corn",
+    "category": "Vegetables",
+    "price": 110,
+    "description": "Freshly sourced farm-quality Fresh Baby Corn. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 78,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p157",
+    "name": "Fresh Okra",
+    "category": "Vegetables",
+    "price": 104,
+    "description": "Freshly sourced farm-quality Fresh Okra. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 85,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p158",
+    "name": "Fresh Celery",
+    "category": "Vegetables",
+    "price": 129,
+    "description": "Freshly sourced farm-quality Fresh Celery. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 64,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p159",
+    "name": "Fresh Sweet Corn",
+    "category": "Vegetables",
+    "price": 126,
+    "description": "Freshly sourced farm-quality Fresh Sweet Corn. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 84,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p160",
+    "name": "Fresh Red Pepper",
+    "category": "Vegetables",
+    "price": 132,
+    "description": "Freshly sourced farm-quality Fresh Red Pepper. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 71,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p161",
+    "name": "Fresh Green Chilli",
+    "category": "Vegetables",
+    "price": 121,
+    "description": "Freshly sourced farm-quality Fresh Green Chilli. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 63,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p162",
+    "name": "Fresh Stir Fry Mix",
+    "category": "Vegetables",
+    "price": 146,
+    "description": "Freshly sourced farm-quality Fresh Stir Fry Mix. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 45,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p163",
+    "name": "Brussel Sprouts",
+    "category": "Vegetables",
+    "price": 136,
+    "description": "Freshly sourced farm-quality Brussel Sprouts. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 79,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p164",
+    "name": "Fresh Manitou Matoke 1 Dozen",
+    "category": "Fruits",
+    "price": 125,
+    "description": "Freshly sourced farm-quality Fresh Manitou Matoke 1 Dozen. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1528825871115-3580a53856b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 29,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p165",
+    "name": "Fresh Ravaiya",
+    "category": "Vegetables",
+    "price": 141,
+    "description": "Freshly sourced farm-quality Fresh Ravaiya. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 71,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p166",
+    "name": "Baby Spinach",
+    "category": "Vegetables",
+    "price": 96,
+    "description": "Freshly sourced farm-quality Baby Spinach. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 33,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p167",
+    "name": "Maize on Cob",
+    "category": "Grains",
+    "price": 133,
+    "description": "Premium quality Maize on Cob. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 95,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p168",
+    "name": "Fresh Drumsticks",
+    "category": "Vegetables",
+    "price": 136,
+    "description": "Freshly sourced farm-quality Fresh Drumsticks. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 86,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p169",
+    "name": "Fresh Imported Garlic",
+    "category": "Vegetables",
+    "price": 267,
+    "description": "Freshly sourced farm-quality Fresh Imported Garlic. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 96,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p170",
+    "name": "Fresh Manitou Potatoes",
+    "category": "Vegetables",
+    "price": 119,
+    "description": "Freshly sourced farm-quality Fresh Manitou Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 38,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p171",
+    "name": "Fresh Red Cabbage",
+    "category": "Vegetables",
+    "price": 86,
+    "description": "Freshly sourced farm-quality Fresh Red Cabbage. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1530836369250-bc42426bf764?auto=format&fit=crop&q=80&w=400",
+    "stock": 50,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p172",
+    "name": "Tindora",
+    "category": "Vegetables",
+    "price": 143,
+    "description": "Freshly sourced farm-quality Tindora. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 69,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p173",
+    "name": "Fresh Apple Mango",
+    "category": "Fruits",
+    "price": 103,
+    "description": "Freshly sourced farm-quality Fresh Apple Mango. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1601493700631-2b1619b6c6b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 20,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p174",
+    "name": "5pcs Nyoro Banana",
+    "category": "Fruits",
+    "price": 135,
+    "description": "Freshly sourced farm-quality 5pcs Nyoro Banana. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1528825871115-3580a53856b3?auto=format&fit=crop&q=80&w=400",
+    "stock": 48,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p175",
+    "name": "Fresh Avocado",
+    "category": "Fruits",
+    "price": 55,
+    "description": "Freshly sourced farm-quality Fresh Avocado. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=400",
+    "stock": 54,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p176",
+    "name": "Sweet Passion",
+    "category": "Fruits",
+    "price": 191,
+    "description": "Freshly sourced farm-quality Sweet Passion. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1526462615413-d1df52b414da?auto=format&fit=crop&q=80&w=400",
+    "stock": 42,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p177",
+    "name": "Fresh Pawpaw",
+    "category": "Fruits",
+    "price": 157,
+    "description": "Freshly sourced farm-quality Fresh Pawpaw. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1513282592548-bd9facb0b2e3?auto=format&fit=crop&q=80&w=400",
+    "stock": 69,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p178",
+    "name": "Fresh Fruits Office Pack",
+    "category": "Fruits",
+    "price": 855,
+    "description": "Freshly sourced farm-quality Fresh Fruits Office Pack. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 97,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p179",
+    "name": "Guava",
+    "category": "Fruits",
+    "price": 104,
+    "description": "Freshly sourced farm-quality Guava. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1536511132684-25bfbf8a7ea3?auto=format&fit=crop&q=80&w=400",
+    "stock": 58,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p180",
+    "name": "Passion Royal",
+    "category": "Fruits",
+    "price": 160,
+    "description": "Freshly sourced farm-quality Passion Royal. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1526462615413-d1df52b414da?auto=format&fit=crop&q=80&w=400",
+    "stock": 99,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p181",
+    "name": "Red Apple",
+    "category": "Fruits",
+    "price": 493,
+    "description": "Freshly sourced farm-quality Red Apple. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=80&w=400",
+    "stock": 33,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p182",
+    "name": "Pink Lady Apple",
+    "category": "Fruits",
+    "price": 579,
+    "description": "Freshly sourced farm-quality Pink Lady Apple. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=80&w=400",
+    "stock": 74,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p183",
+    "name": "Yellow Lime",
+    "category": "Fruits",
+    "price": 114,
+    "description": "Freshly sourced farm-quality Yellow Lime. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1556910110-a5a63dfd393c?auto=format&fit=crop&q=80&w=400",
+    "stock": 44,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p184",
+    "name": "Fresh Imported Grapefruit",
+    "category": "Fruits",
+    "price": 304,
+    "description": "Freshly sourced farm-quality Fresh Imported Grapefruit. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1558234320-038289f666f7?auto=format&fit=crop&q=80&w=400",
+    "stock": 64,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p185",
+    "name": "Shredded Veggies",
+    "category": "Vegetables",
+    "price": 101,
+    "description": "Freshly sourced farm-quality Shredded Veggies. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 75,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p186",
+    "name": "Shredded Cabbage Pack",
+    "category": "Grocery Packs",
+    "price": 468,
+    "description": "Convenient and affordable Shredded Cabbage Pack. Packed fresh and ready for your healthy kitchen, delivering a mix of local farm goodness.",
+    "image": "https://images.unsplash.com/photo-1530836369250-bc42426bf764?auto=format&fit=crop&q=80&w=400",
+    "stock": 31,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p187",
+    "name": "Shredded Spinach",
+    "category": "Vegetables",
+    "price": 70,
+    "description": "Freshly sourced farm-quality Shredded Spinach. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 36,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p188",
+    "name": "Shredded Sageti",
+    "category": "Vegetables",
+    "price": 144,
+    "description": "Freshly sourced farm-quality Shredded Sageti. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 66,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p189",
+    "name": "Shredded Managu",
+    "category": "Vegetables",
+    "price": 125,
+    "description": "Freshly sourced farm-quality Shredded Managu. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1576045057995-c4c1f2025ed7?auto=format&fit=crop&q=80&w=400",
+    "stock": 50,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p190",
+    "name": "Fresh Sageti Bunch",
+    "category": "Vegetables",
+    "price": 145,
+    "description": "Freshly sourced farm-quality Fresh Sageti Bunch. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 60,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p191",
+    "name": "Fresh Golf Potatoes",
+    "category": "Vegetables",
+    "price": 135,
+    "description": "Freshly sourced farm-quality Fresh Golf Potatoes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1518977672816-227ae13dc3b0?auto=format&fit=crop&q=80&w=400",
+    "stock": 49,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p192",
+    "name": "Fresh Spices",
+    "category": "Spices",
+    "price": 115,
+    "description": "Freshly sourced farm-quality Fresh Spices. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 77,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p193",
+    "name": "Fresh Oregano",
+    "category": "Spices",
+    "price": 107,
+    "description": "Freshly sourced farm-quality Fresh Oregano. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 39,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p194",
+    "name": "Fresh Curry Leaves",
+    "category": "Spices",
+    "price": 135,
+    "description": "Freshly sourced farm-quality Fresh Curry Leaves. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 49,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p195",
+    "name": "Fresh Scotch Bonnet / Habanero",
+    "category": "Spices",
+    "price": 106,
+    "description": "Freshly sourced farm-quality Fresh Scotch Bonnet / Habanero. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 28,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p196",
+    "name": "Fresh Dill",
+    "category": "Spices",
+    "price": 116,
+    "description": "Freshly sourced farm-quality Fresh Dill. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 69,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p197",
+    "name": "Whole Cinnamon India",
+    "category": "Spices",
+    "price": 128,
+    "description": "Freshly sourced farm-quality Whole Cinnamon India. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?auto=format&fit=crop&q=80&w=400",
+    "stock": 93,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p198",
+    "name": "Weekly Vegetable Bundles",
+    "category": "Grocery Packs",
+    "price": 476,
+    "description": "Convenient and affordable Weekly Vegetable Bundles. Packed fresh and ready for your healthy kitchen, delivering a mix of local farm goodness.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 73,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p199",
+    "name": "Easy Veggie Pack",
+    "category": "Grocery Packs",
+    "price": 465,
+    "description": "Convenient and affordable Easy Veggie Pack. Packed fresh and ready for your healthy kitchen, delivering a mix of local farm goodness.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 99,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p200",
+    "name": "Fresh Kienyeji Mboga Weekly Pack",
+    "category": "Grocery Packs",
+    "price": 465,
+    "description": "Convenient and affordable Fresh Kienyeji Mboga Weekly Pack. Packed fresh and ready for your healthy kitchen, delivering a mix of local farm goodness.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 81,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p201",
+    "name": "Fresh Spicy Pack",
+    "category": "Grocery Packs",
+    "price": 453,
+    "description": "Convenient and affordable Fresh Spicy Pack. Packed fresh and ready for your healthy kitchen, delivering a mix of local farm goodness.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 87,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p202",
+    "name": "Mt Kenya Milk",
+    "category": "Dairy",
+    "price": 142,
+    "description": "Refreshing Mt Kenya Milk. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=400",
+    "stock": 42,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p203",
+    "name": "Mt Kenya Milk 200ml",
+    "category": "Dairy",
+    "price": 76,
+    "description": "Refreshing Mt Kenya Milk 200ml. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=400",
+    "stock": 63,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p204",
+    "name": "Brookside Dairy Milk 200ml",
+    "category": "Dairy",
+    "price": 46,
+    "description": "Refreshing Brookside Dairy Milk 200ml. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=400",
+    "stock": 83,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p205",
+    "name": "Brookside Dairy Milk 500ml",
+    "category": "Dairy",
+    "price": 89,
+    "description": "Refreshing Brookside Dairy Milk 500ml. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=400",
+    "stock": 28,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p206",
+    "name": "Afia Juice Ginger 500gms",
+    "category": "Beverages",
+    "price": 161,
+    "description": "Refreshing Afia Juice Ginger 500gms. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451b69?auto=format&fit=crop&q=80&w=400",
+    "stock": 42,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p207",
+    "name": "Lemonade",
+    "category": "Beverages",
+    "price": 122,
+    "description": "Refreshing Lemonade. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451b69?auto=format&fit=crop&q=80&w=400",
+    "stock": 87,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p208",
+    "name": "Predator Energy Drink",
+    "category": "Beverages",
+    "price": 132,
+    "description": "Refreshing Predator Energy Drink. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451b69?auto=format&fit=crop&q=80&w=400",
+    "stock": 96,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p209",
+    "name": "Minute Maid 400ml",
+    "category": "Beverages",
+    "price": 134,
+    "description": "Refreshing Minute Maid 400ml. Ensure you always have your favorite drinks and dairy products stocked at home.",
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451b69?auto=format&fit=crop&q=80&w=400",
+    "stock": 82,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p210",
+    "name": "Royal Cling Film Wrap",
+    "category": "Household",
+    "price": 125,
+    "description": "Essential Royal Cling Film Wrap for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 29,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p211",
+    "name": "Notebook",
+    "category": "Household",
+    "price": 111,
+    "description": "Essential Notebook for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 22,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p212",
+    "name": "Dubai Towel",
+    "category": "Household",
+    "price": 126,
+    "description": "Essential Dubai Towel for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 87,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p213",
+    "name": "Matchbox",
+    "category": "Household",
+    "price": 110,
+    "description": "Essential Matchbox for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 72,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p214",
+    "name": "Toothpick",
+    "category": "Household",
+    "price": 140,
+    "description": "Essential Toothpick for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 87,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p215",
+    "name": "Sunlight Washing Powder",
+    "category": "Household",
+    "price": 275,
+    "description": "Essential Sunlight Washing Powder for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 48,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p216",
+    "name": "Omo Washing Powder",
+    "category": "Household",
+    "price": 271,
+    "description": "Essential Omo Washing Powder for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 92,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p217",
+    "name": "Softcare Sanitary Pads",
+    "category": "Hygiene",
+    "price": 129,
+    "description": "Essential Softcare Sanitary Pads for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 65,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p218",
+    "name": "Softcare Diapers",
+    "category": "Hygiene",
+    "price": 973,
+    "description": "Essential Softcare Diapers for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 55,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p219",
+    "name": "Mkombero Diapers",
+    "category": "Hygiene",
+    "price": 981,
+    "description": "Essential Mkombero Diapers for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 81,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p220",
+    "name": "Arimis 90ml",
+    "category": "Hygiene",
+    "price": 113,
+    "description": "Essential Arimis 90ml for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 44,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p221",
+    "name": "Arimis 200ml",
+    "category": "Hygiene",
+    "price": 187,
+    "description": "Essential Arimis 200ml for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 70,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p222",
+    "name": "Coconut Oil",
+    "category": "Cooking Essentials",
+    "price": 606,
+    "description": "Premium quality Coconut Oil. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+    "stock": 43,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p223",
+    "name": "American Dark Soy Sauce",
+    "category": "Cooking Essentials",
+    "price": 103,
+    "description": "Premium quality American Dark Soy Sauce. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=400",
+    "stock": 36,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p224",
+    "name": "Baking Powder",
+    "category": "Cooking Essentials",
+    "price": 143,
+    "description": "Premium quality Baking Powder. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 35,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p225",
+    "name": "Blue Band",
+    "category": "Cooking Essentials",
+    "price": 274,
+    "description": "Premium quality Blue Band. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 26,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p226",
+    "name": "Himalayan Salt",
+    "category": "Cooking Essentials",
+    "price": 111,
+    "description": "Premium quality Himalayan Salt. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=400",
+    "stock": 57,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p227",
+    "name": "Sugar",
+    "category": "Cooking Essentials",
+    "price": 130,
+    "description": "Premium quality Sugar. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 24,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p228",
+    "name": "Jamula Packet",
+    "category": "Cooking Essentials",
+    "price": 485,
+    "description": "Premium quality Jamula Packet. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 21,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p229",
+    "name": "Plain Bread Stick",
+    "category": "Bakery",
+    "price": 142,
+    "description": "Premium quality Plain Bread Stick. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+    "stock": 88,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p230",
+    "name": "Sweet Toast",
+    "category": "Bakery",
+    "price": 129,
+    "description": "Premium quality Sweet Toast. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+    "stock": 52,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p231",
+    "name": "Gluten Free Pizza Base",
+    "category": "Bakery",
+    "price": 148,
+    "description": "Premium quality Gluten Free Pizza Base. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=400",
+    "stock": 53,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p232",
+    "name": "Weetabix",
+    "category": "Breakfast",
+    "price": 524,
+    "description": "Premium quality Weetabix. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1521997888043-aa9c827744f8?auto=format&fit=crop&q=80&w=400",
+    "stock": 43,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p233",
+    "name": "Golden Porridge",
+    "category": "Breakfast",
+    "price": 146,
+    "description": "Premium quality Golden Porridge. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1521997888043-aa9c827744f8?auto=format&fit=crop&q=80&w=400",
+    "stock": 76,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p234",
+    "name": "Indomie",
+    "category": "Breakfast",
+    "price": 126,
+    "description": "Premium quality Indomie. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 47,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p235",
+    "name": "Menengai Bar Soap",
+    "category": "Household",
+    "price": 107,
+    "description": "Essential Menengai Bar Soap for your home. High-quality, trusted brand to keep your household clean, organized, and running smoothly.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 52,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p236",
+    "name": "Chamomile Powder",
+    "category": "Wellness",
+    "price": 109,
+    "description": "Premium quality Chamomile Powder. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 33,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p237",
+    "name": "Chamomile Whole",
+    "category": "Wellness",
+    "price": 105,
+    "description": "Premium quality Chamomile Whole. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 86,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p238",
+    "name": "Epsom Salt",
+    "category": "Cooking Essentials",
+    "price": 128,
+    "description": "Premium quality Epsom Salt. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=400",
+    "stock": 85,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p239",
+    "name": "Seamoss Powder",
+    "category": "Wellness",
+    "price": 135,
+    "description": "Premium quality Seamoss Powder. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 34,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p240",
+    "name": "Red Maca Powder",
+    "category": "Wellness",
+    "price": 102,
+    "description": "Premium quality Red Maca Powder. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=400",
+    "stock": 32,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p241",
+    "name": "Shredded Coconut",
+    "category": "Snacks",
+    "price": 101,
+    "description": "Premium quality Shredded Coconut. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 28,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p242",
+    "name": "Dry Whole Cashew Nuts 100gms",
+    "category": "Snacks",
+    "price": 849,
+    "description": "Premium quality Dry Whole Cashew Nuts 100gms. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 20,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p243",
+    "name": "Pistachio Nuts 100gms",
+    "category": "Snacks",
+    "price": 837,
+    "description": "Premium quality Pistachio Nuts 100gms. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 44,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p244",
+    "name": "Dry Dates 250gms",
+    "category": "Snacks",
+    "price": 113,
+    "description": "Premium quality Dry Dates 250gms. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 84,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p245",
+    "name": "Roasted White Pumpkin Seed",
+    "category": "Snacks",
+    "price": 125,
+    "description": "Premium quality Roasted White Pumpkin Seed. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=400",
+    "stock": 59,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p246",
+    "name": "Tamarind Packet",
+    "category": "Snacks",
+    "price": 479,
+    "description": "Premium quality Tamarind Packet. A staple for your pantry, carefully packaged and delivered straight to your door for maximum convenience.",
+    "image": "https://images.unsplash.com/photo-1610397962076-02407a169a5b?auto=format&fit=crop&q=80&w=400",
+    "stock": 34,
+    "vendorId": "v1"
+  },
+  {
+    "id": "p247",
+    "name": "Fresh Black Grapes",
+    "category": "Fruits",
+    "price": 118,
+    "description": "Freshly sourced farm-quality Fresh Black Grapes. Ideal for your daily healthy recipes. Packed with nutrients and delivered fresh from local Kenyan farms.",
+    "image": "https://images.unsplash.com/photo-1599598425947-3300262b660f?auto=format&fit=crop&q=80&w=400",
+    "stock": 51,
+    "vendorId": "v1"
+  }
+];
