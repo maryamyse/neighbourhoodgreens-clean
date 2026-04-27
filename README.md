@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neighbourhood Greens
 
-# Run and deploy your AI Studio app
+An e-commerce platform for fresh produce and grocery delivery with AI-powered recommendations and M-Pesa integration.
 
-This contains everything you need to run your app locally.
+## Tech Stack
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS
+- **Backend**: Django, Django REST Framework, JWT
+- **APIs**: Google Gemini AI, Safaricom M-Pesa
 
-View your app in AI Studio: https://ai.studio/apps/ce27668b-8ce4-4022-9345-1d17902b54ac
+## Quick Start
 
-## Run Locally
+### Prerequisites
+- Node.js (v18+)
+- Python 3.9+
+- npm
 
-**Prerequisites:**  Node.js
+### Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/maryamyse/neighbourhoodgreens-clean.git
+cd neighbourhoodgreens-clean
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Backend setup
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install django djangorestframework djangorestframework-simplejwt
+cd django_backend
+python manage.py migrate
+python manage.py runserver
+
+# Frontend setup (new terminal)
+npm install
+npm run dev
